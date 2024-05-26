@@ -66,4 +66,12 @@ public interface OrderMapper {
 
     @Update("update orders set status = #{orderStatus},pay_status = #{orderPaidStatus} ,checkout_time = #{check_out_time} where id = #{id}")
     void updateStatus(Integer orderStatus, Integer orderPaidStatus, LocalDateTime check_out_time, Long id);
+
+    /**
+     * 根据状态统计订单数量
+     * @param status
+     */
+    @Select("select count(id) from orders where status = #{status}")
+    Integer countStatus(Integer status);
+
 }

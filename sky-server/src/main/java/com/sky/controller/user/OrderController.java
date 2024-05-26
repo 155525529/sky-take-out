@@ -84,7 +84,7 @@ public class OrderController {
      */
     @PutMapping("/cancel/{id}")
     @ApiOperation("用户取消订单")
-    public Result cancle(@PathVariable Long id){
+    public Result cancle(@PathVariable Long id) throws Exception{
         orderService.userCancleById(id);
         return Result.success();
     }

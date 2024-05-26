@@ -19,10 +19,12 @@ sky:
   wechat:
     appid: wx3385d98401426348
     secret: b437424bb251cb3e064c68323d2164df
-#    mchid: 1561414331
-#    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
-#    privateKeyFilePath: D:\apiclient_key.pem
-#    apiV3Key: CZBK51236435wxpay435434323FFDuv3
-#    weChatPayCertFilePath: D:\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem
+    mchid: 1561414331
+    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
+    privateKeyFilePath: D:\apiclient_key.pem
+    apiV3Key: CZBK51236435wxpay435434323FFDuv3
+    weChatPayCertFilePath: D:\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem
 #    notifyUrl: https://www.weixin.qq.com/wxpay/pay.php
 #    refundNotifyUrl: https://www.weixin.qq.com/wxpay/pay.php
+    notifyUrl: http://dak42w.natappfree.cc/notify/paySuccess
+    refundNotifyUrl: http://dak42w.natappfree.cc/notify/refundSuccess
